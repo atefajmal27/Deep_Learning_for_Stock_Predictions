@@ -20,5 +20,10 @@ The model with closing prices as input data however, did a much better job at pr
 
 ##### Click [here](https://github.com/atefajmal27/Deep_Learning_for_Stock_Predictions/blob/main/lstm_stock_predictor_closing.ipynb) to see the code and more details.
 
+### Libraries and/or Modules used:
+numpy <br/>
+pandas <br/>
+sklearn <br/>
+tensorflow <br/>
 
 
