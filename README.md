@@ -11,5 +11,8 @@ From what I found, FNG indiactors does a terrible job at predicting closing pric
 
 <img width="677" alt="Screen Shot 2020-10-11 at 12 42 55 AM" src="https://user-images.githubusercontent.com/62320593/95682358-c27d2e00-0bb2-11eb-98b4-6385f45558b8.png">
 
+The model with closing prices as input data however, did a much better job at predicting future closing prices. It starts off very strong and accurate but later on, it could not deal with the high volatility of the bitcoin, but still the predicted closing price's trend is very similiar to actual closing price's trend. Here is a graph to show the result of Actual closing price vs Predicted closing price using previous closing prices.
+
+<img width="677" alt="Screen Shot 2020-10-11 at 1 44 10 AM" src="https://user-images.githubusercontent.com/62320593/95682511-931af100-0bb3-11eb-9bdc-0e1b9b4eb946.png">
 
 
