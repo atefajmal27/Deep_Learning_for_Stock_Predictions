@@ -14,7 +14,7 @@ From what I found, FNG indiactors does a terrible job at predicting closing pric
 ##### Click [here](https://github.com/atefajmal27/Deep_Learning_for_Stock_Predictions/blob/main/%20lstm_stock_predictor_fng.ipynb) to see the code and more details.
 
 
-The model with closing prices as input data however, did a much better job at predicting future closing prices. It starts off very strong and accurate but later on, it could not deal with the high volatility of bitcoin, but still the predicted closing price's trend is very similiar to actual closing price's trend. Here is a graph to show the result of Actual closing price vs Predicted closing price using previous closing prices.
+The model with closing prices as input data however, did a much better job at predicting future closing prices. It starts off very strong and accurate but later on, it could not deal with the high volatility of bitcoin, but still the predicted closing price's trend is very similiar to actual closing price's trend. I started off with 10 day window and experimented with different numbers and it seemed that 3 days window works the best for this model. Here is a graph to show the result of Actual closing price vs Predicted closing price using previous closing prices.
 
 <img width="677" alt="Screen Shot 2020-10-11 at 1 44 10 AM" src="https://user-images.githubusercontent.com/62320593/95682511-931af100-0bb3-11eb-9bdc-0e1b9b4eb946.png">
 
